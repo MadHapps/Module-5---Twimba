@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<title>Twimba - A fake website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="index.css">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<script src="index.js" type="module" defer></script>
+</head>
+
+<body id="twimba-body">
+	<div class="reply-modal-container hidden" id="reply-modal-container">
+
+	</div>
+	<header>
+		<h1>Twimba</h1>
+	</header>
+	<main>
+		<div class="tweet-input-area">
+			<img src="images/joey-trail-cropped.png" class="profile-pic">
+			<textarea placeholder="What's happening?" id="tweet-input"></textarea>
+		</div>
+		<button id="tweet-btn">Tweet</button>
+		<div class="feed" id="feed">
+			<!-- Tweets here!! -->
+		</div>
+	</main>
+</body>
+
+</html>
