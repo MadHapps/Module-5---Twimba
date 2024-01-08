@@ -63,6 +63,7 @@ function handleHeartIconClick(tweetId) {
     }
     targetTweetObj.isLiked = !targetTweetObj.isLiked
     render()
+    handleTweetBodyClick(tweetId)
 }
 
 function handleRetweetIconClick(tweetId) {
@@ -78,6 +79,7 @@ function handleRetweetIconClick(tweetId) {
     }
     targetTweetObj.isRetweeted = !targetTweetObj.isRetweeted
     render()
+    handleTweetBodyClick(tweetId)
 }
 
 function handleTrashIconClick(tweetId) {
